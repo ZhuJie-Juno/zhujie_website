@@ -49,7 +49,7 @@ disqusShortname = ""
         weight = 4
     [[menu.main]]
         name = "CV"
-        url = "/files/zhujie_cv.pdf"
+        url = "/zhujie_cv.pdf"
         weight = 5
 # Don't touch this
 [markup.goldmark.renderer]
