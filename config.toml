@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://zhujie.netlify.app/"
 canonifyURLs=true
 pluralizeListTitles = false
 summaryLength   = 25
