@@ -1,0 +1,56 @@
+baseURL = "https://example.com/"
+canonifyURLs=true
+pluralizeListTitles = false
+summaryLength   = 25
+
+theme           = "BlogRa"
+languageCode    = "en-us"
+title           = "Jie Zhu"
+
+disqusShortname = ""
+
+[params]
+    description     = "The Ultimate Tech Blogging Theme"
+    contactEmail    = "zhujiejuno@gmail.com"
+    footer          = ""
+    googleSearch    = ""
+    googleAnalytics = "" # v4
+    adsense         = ""
+    math            = false   # best to enable this in the front matter of a page
+    mermaid         = false   # best to enable this in the front matter of a page
+
+    # Social Media Params
+    facebook   = ""
+    twitter    = ""
+    youtube    = ""
+    instagram  = ""
+    github     = ""
+    pinterest  = ""
+    linkedin   = ""
+
+
+# Configure the site menu here
+[menu]
+    [[menu.main]]
+        name = "Me"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Publications"
+        url = "/publications"
+        weight = 2
+    [[menu.main]]
+        name = "Patents"
+        url = "/patents"
+        weight = 3
+    [[menu.main]]
+        name = "Personal Life"
+        url = "/personal_life/"
+        weight = 4
+    [[menu.main]]
+        name = "CV"
+        url = "/files/zhujie_cv.pdf"
+        weight = 5
+# Don't touch this
+[markup.goldmark.renderer]
+    unsafe = true
