@@ -1,9 +1,5 @@
 ---
 title: "Publications & Patents"
-layout: single
+layout: single_personal_life
 description: ""
-robots: noindex,follow
-sitemap_exclude: true
 ---
-
-I need to write something though
